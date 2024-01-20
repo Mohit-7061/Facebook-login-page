@@ -84,10 +84,19 @@ span{
     
 }
 
-.a{
-    color: #0866FF;
+.for-center{
     margin-top: 8px;
     margin-bottom: 20px;
+}
+
+#for-pass{
+    color: #0866FF;
+    text-decoration: none;
+    transition: 1s;
+}
+
+#for-pass:hover{
+    text-decoration: underline;
 }
 
 .line{
@@ -104,7 +113,7 @@ span{
     color: white;
     border-radius: 7px;
     border: none;
-    font-size: 18px;
+     font-size: 18px; 
 }
 .btn-cre:hover{
     background:#32981d;
